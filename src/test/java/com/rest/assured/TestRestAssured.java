@@ -28,10 +28,10 @@ public class TestRestAssured {
 
         // config
         String baseUri = "http://accounts-dev.autodesk.com";
-        String consumerKey = "mycloud-dev.autodesk.com";
-        String consumerSecret = "DAut0d3sk!";
-        String username = "aniket@autodesk";
-        String password = "Jaguar22";
+        String consumerKey = "TestConsumerKey";
+        String consumerSecret = "TestConsumerSecret!";
+        String username = "TestUserName";
+        String password = "TestPassword";
 
         RestAssured.baseURI = baseUri;
 
